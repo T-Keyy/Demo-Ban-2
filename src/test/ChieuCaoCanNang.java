@@ -14,6 +14,8 @@ public class ChieuCaoCanNang {
 	        // cachtinhbmi
 	        float bmi = (cannang)/(chieucao*chieucao);
 	        System.out.println("BMI: "+bmi);
+	        System.out.print("Nhập age: ");
+            float age = s.nextFloat();
 	        printbmi(bmi);
 	}
 	    private static void printbmi(float bmi) {
