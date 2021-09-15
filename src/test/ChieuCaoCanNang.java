@@ -7,6 +7,8 @@ public class ChieuCaoCanNang {
 	    }
 		public static void tinhbmi()  {
 	        Scanner s = new Scanner(System.in);
+	        System.out.print("Nhập age: ");
+            float age = s.nextFloat();
 	        System.out.print("Nhập cân nặng tính bằng kg: ");
 	        float cannang = s.nextFloat();
 	        System.out.print("Nhập chiều cao tính bằng m: ");
@@ -14,8 +16,6 @@ public class ChieuCaoCanNang {
 	        // cachtinhbmi
 	        float bmi = (cannang)/(chieucao*chieucao);
 	        System.out.println("BMI: "+bmi);
-	        System.out.print("Nhập age: ");
-            float age = s.nextFloat();
 	        printbmi(bmi);
 	}
 	    private static void printbmi(float bmi) {

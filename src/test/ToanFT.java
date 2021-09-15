@@ -15,7 +15,7 @@ public class ToanFT {
 		System.out.println("number2");
 		y = scanner.nextInt();
 		if (x>=y) {
-			System.out.println("nhap ket qua x - y la:");
+			System.out.println("nhap ket qua number1 - number2 la:");
 			n = scanner.nextInt();
 		if ((x-y)==n) {
 			System.out.println("Đáp án chính xác!");
